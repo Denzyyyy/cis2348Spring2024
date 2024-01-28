@@ -1,20 +1,18 @@
-# Hugues Izah, student ID: 2310365
-print("Birthday Calculator")
+# Hugues Izah, student id is 2310365
 
-current_month = int(input("Current Month: "))
-current_day = int(input("Day: "))
-current_year = int(input("Year: "))
+print("Enter integer: ")
 
-print("Birthday")
-birthday_month = int(input("Month: "))
-birthday_day = int(input("Day: "))
-birthday_year = int(input("Year: "))
+user_num1 = int(input())
+print("you entered:", user_num1)
 
-age = current_year - birthday_year
-if (current_month, current_day) < (birthday_month, birthday_day):
-    age -= 1
+input_squared = user_num1 * user_num1
+input_cubed = user_num1 ** 3
 
-print(f"\nYou are {age} years old.")
+print(user_num1, "squared is ", input_squared)
+print("And", user_num1, "cubed is", input_cubed, "!!")
 
-if current_month == birthday_month and current_day == birthday_day:
-    print("Happy Birthday!")
+print("Enter another integer:")
+user_num2 = int(input())
+
+print(user_num1, "+", user_num2, "is", user_num1 + user_num2)
+print(user_num1, "*", user_num2, "is", user_num1 * user_num2)
