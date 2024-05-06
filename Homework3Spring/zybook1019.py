@@ -1,3 +1,6 @@
+#Hughes Izah , PSID 2310365
+
+
 class ItemToPurchase:
     def __init__(self, item_name="none", item_price=0, item_quantity=0, item_description="none"):
         self.item_name = item_name
