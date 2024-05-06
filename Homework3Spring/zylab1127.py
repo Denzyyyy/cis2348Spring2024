@@ -1,3 +1,6 @@
+#Hughes Izah , PSID 2310365
+
+
 def display_roster(roster):
     print("\nROSTER")
     for jersey, rating in sorted(roster.items()):
