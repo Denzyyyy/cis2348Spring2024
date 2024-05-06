@@ -1,3 +1,6 @@
+#Hughes Izah , PSID 2310365
+
+
 list = input()
 text = list.split()
 
