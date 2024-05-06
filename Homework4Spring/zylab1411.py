@@ -1,3 +1,5 @@
+#Hughes Izah , PSID 2310365
+
 def selection_sort_descend_trace(integer_list):
     n = len(integer_list)
     for i in range(n-1):
